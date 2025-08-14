@@ -1,3 +1,4 @@
+
 var config = {
     // style: 'mapbox://styles/mapbox/streets-v12',
     // leave commented to use Mapbox Standard Style
@@ -19,7 +20,7 @@ var config = {
     title: 'Kentsel Boşluğun Üretimi: Süreyya Plajı / Production of Urban Voids : Süreyya Beach',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: 'boş',
@@ -30,7 +31,7 @@ var config = {
             description: '',
             location: {
                 center: [ 29.124208341805872,40.92681653040754],
-                zoom: 13,
+                zoom: 11,
                 pitch: 6,
                 bearing: 0
             },
@@ -60,7 +61,7 @@ var config = {
             description: '',
             location: {
                 center: [29.124208341805872,40.92681653040754],
-                zoom: 18,
+                zoom: 13,
                 pitch: 0,
                 bearing: 0
             },
@@ -90,7 +91,7 @@ var config = {
             description: '',
             location: {
                 center: [29.124208341805872,40.92681653040754],
-                zoom: 18,
+                zoom: 15,
                 pitch: 0,
                 bearing: 0,
                 speed: 1,
@@ -103,30 +104,12 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
         },
-        {
-            id: '4',
-            alignment: 'right',
-            hidden:  false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [29.124208341805872,40.92681653040754],
-                zoom: 18,
-                pitch: 0,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+       
     
     ]
 };
