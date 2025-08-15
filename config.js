@@ -17,7 +17,7 @@ var config = {
     theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'Kentsel Boşluğun Üretimi: Süreyya Plajı / Production of Urban Voids : Süreyya Beach',
+    title: 'Kentsel Boşluğun Üretimi: Süreyya Plajı / Production of Urban Void : Süreyya Beach',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
